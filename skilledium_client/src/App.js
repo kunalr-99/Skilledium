@@ -18,9 +18,6 @@ function App() {
           <Route path="/addcourse" element={<CourseForm />} />
         </Routes>
       </Router>
-      {/* <Header />
-        <CourseCarousel />
-        <CoursePage /> */}
     </>
   );
 }
