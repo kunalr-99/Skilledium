@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+.slick-prev {
+  left: 0 !important;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.slick-next {
+  right: 0 !important;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.courses-header {
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family: "Monoton", "Abril Fatface"; */
+}
+
+.contact-page {
+  font-family: "Verdana", sans-serif;
+}
